@@ -5,11 +5,19 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
         //Variables
-        //1. Primitive Types - 8 in Total
+        //A. Using a Coma, we can declare multiple variables on the same line.
+        //int age = 12, temperature = 20;
+
+        //B. We can copy the value of one variable into another.
+        //int myAge = 27;
+        //int herAge = myAge;
+
+        //1. Primitive Types - 8 in Total:
         byte age = 30; //Size: 1 Byte. Range: -127 to 127.
+        short deposit = 27000; //Size: 2 Bytes. Range: -32k to 32k.
         int numberOfYears = 149; //Size: 4 Bytes. Range: -2B to 2B.
         long viewsCount = 3_123_456_789L; //Size: 8 Bytes. Underscore similar to ",".
-        float price = 10.99F;
+        float price = 10.99F; //Size: 4 Bytes.
         char letter = 'A';
 
         //Primitive Types Store Actual Values. Variables are stored in different memory locations, Independent of each other.
