@@ -39,7 +39,7 @@ public class Main {
         //String Objects are Immutable - Creates a New Instance of the String Object.
         String message = "Hello World" + "!!";
         //System.out.println(message.indexOf("e"));
-        //message.length .startsWith .endsWith .replace(target, value) .trim() .toUpperCase() .toLowerCase() etc
+        //message.length, .startsWith(), .endsWith(), .replace(target, replacement), .trim() - removes whitespaces, .toUpperCase(), .toLowerCase() etc.
 
         //Arrays
         int[] numbers = new int[5];
@@ -47,7 +47,15 @@ public class Main {
         numbers[1] = 2;
         System.out.println(Arrays.toString(numbers));
 
-        Scanner scanner = new Scanner(System.in);
-        //byte ages = scanner.nextByte(System.out.println("Enter Your Age: "));
+        int[] points = {2, 3, 6, 1, 2};
+        Arrays.sort(points);
+        System.out.println(Arrays.toString(points));
+
+        //Multi-Dimensional Arrays
+        //Two Rows and Three Columns.
+        int[][] multi = new int[2][3];
+        multi[0][0] = 1; //First Row, First Column
+        System.out.println(Arrays.deepToString(multi)); //deepToString() for printing Multi-dimensional arrays.
+        //Output - Rows printed in Horizontal Order, Columns printed Vertically, both separated by a coma/s .i.e. [[1, 0, 0], [0, 0, 0]].
     }
 }
