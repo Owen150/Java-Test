@@ -53,9 +53,10 @@ public class Main {
 
         //Multi-Dimensional Arrays
         //Two Rows and Three Columns.
-        int[][] multi = new int[2][3];
+        int[][] multi = new int[2][3]; //also, int[][] multi = {{2,3,6},{1,2,3}};
         multi[0][0] = 1; //First Row, First Column
         System.out.println(Arrays.deepToString(multi)); //deepToString() for printing Multi-dimensional arrays.
         //Output - Rows printed in Horizontal Order, Columns printed Vertically, both separated by a coma/s .i.e. [[1, 0, 0], [0, 0, 0]].
+
     }
 }
