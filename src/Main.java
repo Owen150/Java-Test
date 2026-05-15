@@ -1,4 +1,5 @@
 import java.awt.*;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.Scanner;
 
@@ -24,20 +25,27 @@ public class Main {
         byte x = 1;
         byte y = x;
         x = 2;
-        System.out.println(y);  //Value Remains Unchanged.
+        //System.out.println(y);  //Value Remains Unchanged.
 
         //2. Reference Types - Do not store actual values but a Reference to an object somewhere in the memory i.e. Stores the Memory Address Location.
         Date now = new Date();
-        System.out.println(now);
+        //System.out.println(now);
 
         Point point1 = new Point(1,2);
         Point point2 = point1;
         point1.x = 3;
-        System.out.println(point2); //Value is Updated.
+        //System.out.println(point2); //Value is Updated.
 
         //String Objects are Immutable - Creates a New Instance of the String Object.
         String message = "Hello World" + "!!";
-        System.out.println(message.indexOf("e"));
+        //System.out.println(message.indexOf("e"));
+        //message.length .startsWith .endsWith .replace(target, value) .trim() .toUpperCase() .toLowerCase() etc
+
+        //Arrays
+        int[] numbers = new int[5];
+        numbers[0] = 1;
+        numbers[1] = 2;
+        System.out.println(Arrays.toString(numbers));
 
         Scanner scanner = new Scanner(System.in);
         //byte ages = scanner.nextByte(System.out.println("Enter Your Age: "));
