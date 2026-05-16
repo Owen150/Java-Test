@@ -45,18 +45,32 @@ public class Main {
         int[] numbers = new int[5];
         numbers[0] = 1;
         numbers[1] = 2;
-        System.out.println(Arrays.toString(numbers));
+        //System.out.println(Arrays.toString(numbers));
 
         int[] points = {2, 3, 6, 1, 2};
         Arrays.sort(points);
-        System.out.println(Arrays.toString(points));
+        //System.out.println(Arrays.toString(points));
 
         //Multi-Dimensional Arrays
         //Two Rows and Three Columns.
         int[][] multi = new int[2][3]; //also, int[][] multi = {{2,3,6},{1,2,3}};
         multi[0][0] = 1; //First Row, First Column
-        System.out.println(Arrays.deepToString(multi)); //deepToString() for printing Multi-dimensional arrays.
+        //System.out.println(Arrays.deepToString(multi)); //deepToString() for printing Multi-dimensional arrays.
         //Output - Rows printed in Horizontal Order, Columns printed Vertically, both separated by a coma/s .i.e. [[1, 0, 0], [0, 0, 0]].
 
+        //Arithmetic Operations
+        int z = 1;
+        z++;
+        System.out.println(z); //2
+
+        int b = 1;
+        int q = b++;
+        System.out.println(b); //2 .i.e. increment b by 1.
+        System.out.println(q); //1 .i.e. q = b first.
+
+        int r = 3;
+        int f = ++r;
+        System.out.println(r); //4 .i.e Value of r incremented by 1. Code processed line by line.
+        System.out.println(f); //4 .i.e. First increment r by 1, assign it to f
     }
 }
