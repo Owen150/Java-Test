@@ -51,7 +51,7 @@ public class Main {
 
         ii. Reference Types
         Reference variables store the memory address location of the actual object which is located somewhere in memory.
-        Variables do not store actual values, but references to objects located somewhere in the memory.
+        Variables do not store actual values, but references to objects which are located/stored somewhere in the memory.
 
             A. Date Object
                 Date now = new Date();
