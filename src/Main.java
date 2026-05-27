@@ -116,5 +116,11 @@ public class Main {
         myCat.age = 6;
         myCat.meow();
         Cat.dingDong();
+
+        Employee emp1 = new Employee("Michael");
+        Employee emp2 = new Employee("Owen");
+
+        emp1.show();
+        emp2.show();
     }
 }
