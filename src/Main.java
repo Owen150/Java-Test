@@ -125,7 +125,7 @@ public class Main {
         emp1.show();
         emp2.show();
 
-        Student stud1 = new Student("Tyap", 3);
+        Student stud1 = new Student("Tyap", 25);
         stud1.show();
     }
 }
