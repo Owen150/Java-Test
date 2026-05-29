@@ -1,10 +1,14 @@
 public class Student {
+    static String schoolName = "Strathmore University";
     String name;
     int age;
 
-    public String student(String name, int age){
+    Student(String name, int age){
         this.name = name;
         this.age = age;
-        return "My name is " +name + " and I am " +age + " years old";
+    }
+
+    void show(){
+        System.out.println("My name is " + name + " and I am " + age + " years old." + " I attend " + schoolName +".");
     }
 }

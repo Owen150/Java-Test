@@ -111,16 +111,21 @@ public class Main {
         System.out.println(r); //4 .i.e Value of r incremented by 1. Code processed line by line.
         System.out.println(f); //4 .i.e. First increment r by 1, assign it to f
         */
+        /*
         Cat myCat = new Cat();
         myCat.name = "Pussy";
         myCat.age = 6;
         myCat.meow();
         Cat.dingDong();
+        */
 
         Employee emp1 = new Employee("Michael");
         Employee emp2 = new Employee("Owen");
 
         emp1.show();
         emp2.show();
+
+        Student stud1 = new Student("Tyap", 3);
+        stud1.show();
     }
 }
