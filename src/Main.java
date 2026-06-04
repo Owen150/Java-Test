@@ -110,8 +110,7 @@ public class Main {
         int f = ++r;
         System.out.println(r); //4 .i.e Value of r incremented by 1. Code processed line by line.
         System.out.println(f); //4 .i.e. First increment r by 1, assign it to f
-        */
-        /*
+
         Cat myCat = new Cat();
         myCat.name = "Pussy";
         myCat.age = 6;
