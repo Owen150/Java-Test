@@ -1,9 +1,11 @@
 public class Employee {
-    // Static Variable companyName - Shared among all objects of a Class .i.e. emp1 and emp2
+    // Static Variable companyName - Shared among all Objects of a Class .i.e. emp1 and emp2
     static String companyName = "Smart Applications International";
+    // Different for every Employee Object. Not shared
     String employeeName;
 
-    Employee(String employeeName){
+    // Constructor
+    public Employee(String employeeName){
         this.employeeName = employeeName;
     }
 
