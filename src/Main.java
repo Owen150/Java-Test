@@ -116,7 +116,7 @@ public class Main {
         myCat.age = 6;
         myCat.meow();
         Cat.dingDong();
-        */
+
 
         Employee emp1 = new Employee("Michael");
         Employee emp2 = new Employee("Owen");
@@ -126,5 +126,8 @@ public class Main {
 
         Student stud1 = new Student("Tyap", 25);
         stud1.show();
+         */
+        Bird parrot = new Bird();
+        parrot.reportStats();
     }
 }
