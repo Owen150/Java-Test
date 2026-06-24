@@ -131,5 +131,8 @@ public class Main {
         x2.getConstructorName();
 
         ConstructorTutorial.getConstructorCount(); //Static Method - Called directly using the class name.
+
+        VehicleConstructor v1 = new VehicleConstructor("Green");
+        VehicleConstructor v2 = new VehicleConstructor("Yellow",4);
     }
 }
