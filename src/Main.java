@@ -1,8 +1,3 @@
-import java.awt.*;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args){
         /*
@@ -117,7 +112,6 @@ public class Main {
         myCat.meow();
         Cat.dingDong();
 
-
         Employee emp1 = new Employee("Michael");
         Employee emp2 = new Employee("Owen");
 
@@ -126,8 +120,16 @@ public class Main {
 
         Student stud1 = new Student("Tyap", 25);
         stud1.show();
-         */
+
         Bird parrot = new Bird();
         parrot.reportStats();
+        */
+
+        ConstructorTutorial x1 = new ConstructorTutorial();
+        ConstructorTutorial x2 = new ConstructorTutorial();
+        x1.getConstructorName();
+        x2.getConstructorName();
+
+        ConstructorTutorial.getConstructorCount(); //Static Method - Called directly using the class name.
     }
 }
