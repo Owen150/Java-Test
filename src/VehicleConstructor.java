@@ -2,6 +2,7 @@ public class VehicleConstructor {
     private String color;
     private int vin;
 
+    //Every constructor MUST call a constructor in the super class.
     public VehicleConstructor(){
         super(); //Call to the Java Object class. Constructs a New Object.
     }

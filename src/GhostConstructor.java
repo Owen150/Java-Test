@@ -4,6 +4,7 @@ public class GhostConstructor {
     private boolean isScary;
 
     public  GhostConstructor(String color, boolean isScary) {
+        super();
         this.color = color;
         this.isScary = isScary;
     }
