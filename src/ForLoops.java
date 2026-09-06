@@ -19,7 +19,7 @@ public class ForLoops {
         int count = 0;
         for(int element : arr){
             System.out.println("Found a " + element + " at Index " + count);
-            count++; //Keeps track of the element's index inside the array.
+            count++; //Keeps track of the elements' index inside the array.
         }
 
         //Adding Values to an Array.
@@ -30,7 +30,7 @@ public class ForLoops {
         }
 
         for(String str : names){    //NB: Primitive variable types - Small letters i.e. byte, short, int; Reference Types - Capital Letters i.e. String, Date e.t.c
-            if(str == "Red"){
+            if(str.equals("Red")){  //.equals() Method is a Member of the String class.
                 break;
             }
         }
