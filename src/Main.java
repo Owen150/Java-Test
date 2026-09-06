@@ -34,6 +34,8 @@ public class Main {
 
             char letter = 'A';
             //Size: 2 Bytes. Range: A,B,C,...
+            //Single Character - Single Quotes - ''
+            //Multiple Characters i.e. String - Double Quotes - ""
 
             boolean
             //Size: 1 Byte. Range: True or False.
@@ -48,10 +50,16 @@ public class Main {
         Reference variables store the memory address location of the actual object which is located somewhere in memory.
         Variables do not store actual values, but references to objects which are located/stored somewhere in the memory.
 
+        An Object is an instance of a class.
+        Objects have members which we can access using the dot operator.
+        Primitive variables do not have members, only reference variables.
+
             A. Date Object
                 Date now = new Date();
-                System.out.println(now);
+                now.getTime();
+                System.out.println(now.getTime());
                 //Displays the current date & time.
+                //now - Reference Variable.
 
             B. Pointer Object
                 Point point1 = new Point(1,2);
@@ -62,6 +70,7 @@ public class Main {
 
         2. Strings
         String objects are Immutable/Unchangeable .i.e. One only creates a new instance of the original string object, but does not alter the value of the original string object.
+        Enclosed in Double Quotes i.e. ""
 
         String message = "Hello World" + "!!";
         System.out.println(message.indexOf("e"));
@@ -72,7 +81,7 @@ public class Main {
                 int[] numbers = new int[5];
                 numbers[0] = 1;
                 numbers[1] = 2;
-                System.out.println(Arrays.toString(numbers)); //{1,2,0,0,0}
+                System.out.println(Arrays.toString(numbers)); //{1,2,0,0,0} - One row
 
                 //numbers[10] = 4;
                 //System.out.println(Arrays.toString(numbers));
@@ -129,8 +138,10 @@ public class Main {
         ConstructorTutorial x2 = new ConstructorTutorial();
         x1.getConstructorName();
         x2.getConstructorName();
+        //Variables x1 and x2 - Reference Type Variables
 
-        ConstructorTutorial.getConstructorCount(); //Static Method - Called directly using the class name.
+        ConstructorTutorial.getConstructorCount();
+        //Static Method - Called directly using the class name.
 
         VehicleConstructor v1 = new VehicleConstructor("Green");
         VehicleConstructor v2 = new VehicleConstructor("Yellow",4);
