@@ -5,7 +5,7 @@ public class ReadingInput {
         Scanner scanner = new Scanner(System.in);
         //println Skips a line when taking input, print keeps input on the same line
         System.out.print("Name: ");
-        //byte age = scanner.nextByte(); and etc
+        //byte age = scanner.nextByte(); .nextInt(); .nextBoolean(); .nextDouble(); etc
         String name = scanner.nextLine().trim();
         System.out.println("You are " + name);
     }
