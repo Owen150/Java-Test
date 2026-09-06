@@ -8,5 +8,8 @@ public class ReadingInput {
         //byte age = scanner.nextByte(); .nextInt(); .nextBoolean(); .nextDouble(); etc
         String name = scanner.nextLine().trim();
         System.out.println("You are " + name);
+        //String scanned = scanner.next();
+        //int x = Integer.parseInt(scanned); //Convert a String to an Integer
+        //System.out.println(x);
     }
 }
